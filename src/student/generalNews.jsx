@@ -21,17 +21,27 @@ const GeneralNews = () => {
     } finally {
     }
   };
-
+  
   useEffect(() => {
     news();
-  });
+  },[]);
   console.log(newsResponse);
-
+   
   return (
+
     <div className={"wrapper"}>
       <NavbarStud />
       <div className={"mainpage"}>
-        <p>{newsResponse}</p>
+        <h1 style={{color:"#03910f",fontWeight:"bolder"}}>GENERAL NEWS</h1>
+        {newsResponse? newsResponse.articles.map((value)=>{
+          return(
+            <div>
+            <a href={value.url}>{value.title}</a>
+            <p style={{marginLeft:"15px",marginTop:"1px"}}>{value.description}</p>
+            
+            </div>
+          )
+        }):""}
       </div>
     </div>
   );

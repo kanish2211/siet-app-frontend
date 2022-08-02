@@ -18,9 +18,11 @@ const NavbarStud = () => {
         color: "white",
         display: "flex",
         flexDirection: "column",
-        height: "100%",
-        minHeight: "100vh",
-        width: "full"
+        Height:"100vh",
+        width: "full",
+        scrollbarColor:"blue",
+        overflowY:"hidden",
+        overflowX:"hidden"
       }}
       className={"navbarColumn"}
     >
