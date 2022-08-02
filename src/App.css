@@ -33,3 +33,16 @@
   width: 400px;
   margin: 20px;
 }
+.detailTile {
+  border: 1px solid #032906;
+  box-shadow: 5px 5px #c6c9c6;
+  border-radius: 5px;
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
+.detailTileWrapper{
+  display: grid;
+  grid-template-columns: auto auto  auto auto;
+  column-gap: 6px;
+}
