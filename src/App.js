@@ -1,11 +1,10 @@
 
 import React from "react";
-import Dashboard from "./student/dashboard"
-import GeneralNews from "./student/generalNews";
-import Suggestion from "./student/suggestion";
+import ChangePassword from "./student/changePassword";
+
 
 export default function App() {
   return (
-    <GeneralNews/>
+    <ChangePassword/>
   );
 }
