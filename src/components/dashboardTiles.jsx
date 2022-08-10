@@ -4,7 +4,7 @@ import "../App.css";
 
 
 
-const DashboardTile = ({ value, buttonValue, text, title }) => {
+const   DashboardTile = ({ value, buttonValue, text, title }) => {
   return (
     <div className={"dasboardTile"}>
       <h2 style={{ textAlign: "center" }}>{title}</h2>
