@@ -20,7 +20,7 @@ const DetailedAttendance = () => {
 <DetailTiles value={"86%"} title={"Advanced Databases"}/>
 <DetailTiles value={"86%"} title={"Advanced Databases"}/>
 <DetailTiles value={"86%"} title={"Advanced Databases"}/>
-<DetailTiles value={"86%"} title={"Advanced Databases"}/>
+<DetailTiles value={"86%"} title={" Databases"}/>
 </div>
       </div>
     </div>
