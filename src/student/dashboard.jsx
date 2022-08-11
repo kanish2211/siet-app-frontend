@@ -47,7 +47,14 @@ const Dashboard = () => {
             :
             <></>
           }
-          <DashboardTile />
+          {
+            dashboardResponse ? 
+            
+          <DashboardTile buttonValue={"more details"} text={"Attendance"} value={dashboardResponse.attendance.overall} />
+          
+            :
+            <></>
+          }
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import Logo from "./logo";
+import React from "react";
 import "../App.css";
 const navbarItems = [
   { title: "Home", link: "" },
