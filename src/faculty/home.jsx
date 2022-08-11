@@ -7,7 +7,8 @@ const Home = () => {
     <div className={"wrapper"}>
       <NavbarFaculty />
       <div className={"mainpage"}>
-        <p></p>
+      <h2 style={{ fontWeight: "90px",color:"green" }}>Welcome</h2>
+      
       </div>
     </div>
   );
